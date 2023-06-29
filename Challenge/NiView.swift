@@ -22,30 +22,30 @@ struct NiView: View {
                             .foregroundColor(Color.white)
                             .multilineTextAlignment(.center)
                             .padding(/*@START_MENU_TOKEN@*/.all, 50.0/*@END_MENU_TOKEN@*/)
-                            .position(x:198, y:180)
+                            .position(x:213, y:200)
                             .tracking(5)
                             .lineSpacing(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
                         
                         Text("An ingeniously calibrated blend of nutrient-rich ingredients essential to balanced, blissful skin.")
                             .foregroundColor(Color.white)
                             .multilineTextAlignment(.center)
-                            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                            .position(x:198, y:340)
+                            .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/, 40)
+                            .position(x:213, y:360)
                             .lineSpacing(8.0)
                         
                         Text("FEATURING . . .")
                             .foregroundColor(Color("color2"))
                             .multilineTextAlignment(.center)
                             .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                            .position(x:135, y:450)
+                            .position(x:135, y:480)
                             .lineSpacing(8.0)
                             .tracking(3)
                         
                         
                         Image("feat")
                             .resizable()
-                            .frame(width:300, height:300)
-                            .position(x:197, y:640)
+                            .frame(width:330, height:330)
+                            .position(x:213, y:700)
                         
                         
 //                        NavigationLink(destination: MainView().navigationBarHidden(true)) {

@@ -23,7 +23,7 @@ struct SustainView: View {
                             Text("HAPPY PLANET, HAPPY SKIN")
                                 .fontWeight(.heavy)
                                 .foregroundColor(Color.white)
-                                .position(x:196, y:140)
+                                .position(x:215, y:140)
                                 .multilineTextAlignment(.center)
                                 .tracking(3)
                                 .font(.title)
@@ -31,7 +31,7 @@ struct SustainView: View {
                             Image("with")
                                 .resizable()
                                 .frame(width:300,height:300)
-                                .position(x:195, y:310)
+                                .position(x:215, y:310)
                             
                             Text("OUR GREEN CHEMISTRY METHODOLOGY")
                                 .fontWeight(.semibold)
@@ -40,7 +40,7 @@ struct SustainView: View {
                                 .font(.title2)
                                 .foregroundColor(Color.white)
                                 .tracking(3)
-                                .position(x:194.5,y:260)
+                                .position(x:215,y:260)
                             
                             Text("\"A proprietary data-driven approach that follows 10+ years of research and is used to examine the ingredients that go into our formulas. Each ingredient is evaluated not only against our already rigorous safety and quality standards, but also for its ecosystem and environmental profile.\"")
                                 .fontWeight(.light)
@@ -49,7 +49,7 @@ struct SustainView: View {
                                 .font(.body)
                                 .foregroundColor(Color.white)
                                 .tracking(3)
-                                .position(x:195,y:410)
+                                .position(x:215,y:410)
                                 .lineSpacing(10.0)
                             
                             Text("- Estée Lauder")
@@ -59,11 +59,11 @@ struct SustainView: View {
                                 .font(.body)
                                 .foregroundColor(Color.white)
                                 .tracking(3)
-                                .position(x:280,y:280)
+                                .position(x:300,y:290)
                                 .lineSpacing(10.0)
                             
                             SusSlider()
-                                .position(x:198, y:430)
+                                .position(x:215, y:450)
                             
                             Group{
                                 Text("THE NUTRITIOUS COLLECTION")
@@ -73,7 +73,7 @@ struct SustainView: View {
                                     .font(.title2)
                                     .foregroundColor(Color.white)
                                     .tracking(5)
-                                    .position(x:194.5,y:390)
+                                    .position(x:215,y:390)
                                 
                                 VStack(alignment: .leading){
                                     Text("♥  Responsibly sourced,")
@@ -103,7 +103,7 @@ struct SustainView: View {
                                 }
                                 .padding(.horizontal, 25.0)
                                 .foregroundColor(Color.white)
-                                .position(x:220, y:530)
+                                .position(x:255, y:530)
                                 .font(.title3)
                                 .tracking(3)
                                 .fontWeight(.light)
@@ -114,11 +114,11 @@ struct SustainView: View {
                                 Rectangle()
                                     .foregroundColor(Color.clear)
                                     .background(LinearGradient(gradient: gradient1, startPoint: .top, endPoint: .bottom))
-                                    .position(x:196.5,y:570)
+                                    .position(x:215,y:570)
                                 Rectangle()
                                     .foregroundColor(Color.clear)
                                     .background(LinearGradient(gradient: gradient2, startPoint: .top, endPoint: .bottom))
-                                    .position(x:196.5,y:1180)
+                                    .position(x:215,y:1180)
                                 Group{
                                     Text("EWG VERIFIED")
                                         .fontWeight(.semibold)
@@ -126,7 +126,7 @@ struct SustainView: View {
                                         .font(.title2)
                                         .foregroundColor(Color.white)
                                         .tracking(5)
-                                        .position(x:197,y:500)
+                                        .position(x:215,y:500)
                                     Text("Established in 1993, the Environmental Working Group is a third-party non-profit organization making strides towards a cleaner future for both the planet and its people via research, policy reform, and advocacy.")
                                         .fontWeight(.light)
                                         .multilineTextAlignment(.leading)
@@ -134,7 +134,7 @@ struct SustainView: View {
                                         .font(.body)
                                         .foregroundColor(Color.white)
                                         .tracking(3)
-                                        .position(x:197,y:670)
+                                        .position(x:215,y:670)
                                         .lineSpacing(10.0)
                                     Text("EWG verification means that Nutritious formulas meet strict manufacturing standards, including transparency requirements and good manufacturing processes.")
                                         .fontWeight(.light)
@@ -143,12 +143,12 @@ struct SustainView: View {
                                         .font(.body)
                                         .foregroundColor(Color.white)
                                         .tracking(3)
-                                        .position(x:197,y:900)
+                                        .position(x:215,y:900)
                                         .lineSpacing(10.0)
                                     Image("logo")
                                         .resizable()
                                         .frame(width:250,height:250)
-                                        .position(x:197,y:1150)
+                                        .position(x:215,y:1155)
                                 }
                                 
                                 Group{
@@ -158,14 +158,14 @@ struct SustainView: View {
                                         .font(.title2)
                                         .foregroundColor(Color.white)
                                         .tracking(5)
-                                        .position(x:176,y:1410)
-                                        .padding(.horizontal,20.0)
+                                        .position(x:186,y:1410)
+                                        .padding(.horizontal,30.0)
                                     
                                     VStack{
                                         Image("mask")
                                             .resizable()
                                             .frame(width:170,height:170)
-                                            .position(x:103,y:1565)
+                                            .position(x:123,y:1565)
                                         Text("NUTRITIOUS MELTING SOFT CREME/MASK 50ml")
                                             .fontWeight(.bold)
                                             .multilineTextAlignment(.leading)
@@ -189,7 +189,7 @@ struct SustainView: View {
                                         Image("rad")
                                             .resizable()
                                             .frame(width:170,height:170)
-                                            .position(x:290,y:1565)
+                                            .position(x:310,y:1565)
                                         Text("NUTRITIOUS RADIANT ESSENCE LOTION 200ml")
                                             .fontWeight(.bold)
                                             .multilineTextAlignment(.leading)
@@ -213,7 +213,7 @@ struct SustainView: View {
                                         Image("airy")
                                             .resizable()
                                             .frame(width:170,height:170)
-                                            .position(x:103,y:1870)
+                                            .position(x:123,y:1870)
                                         Text("NUTRITIOUS AIRY LOTION")
                                             .fontWeight(.bold)
                                             .multilineTextAlignment(.leading)
@@ -229,7 +229,7 @@ struct SustainView: View {
                                             .font(.caption)
                                             .foregroundColor(Color.white)
                                             .tracking(2)
-                                            .position(x:-40,y:2050)
+                                            .position(x:5,y:2047)
                                             .lineSpacing(1.0)
                                             .padding(.horizontal,120.0)
                                     }
@@ -237,7 +237,7 @@ struct SustainView: View {
                                         Image("foam")
                                             .resizable()
                                             .frame(width:170,height:170)
-                                            .position(x:290,y:1870)
+                                            .position(x:310,y:1870)
                                         Text("NUTRITIOUS 2-IN-1 FOAM CLEANSER 125ml")
                                             .fontWeight(.bold)
                                             .multilineTextAlignment(.leading)
@@ -253,9 +253,9 @@ struct SustainView: View {
                                             .font(.caption)
                                             .foregroundColor(Color.white)
                                             .tracking(2)
-                                            .position(x:167,y:2075)
+                                            .position(x:185,y:2072)
                                             .lineSpacing(1.0)
-                                            .padding(.horizontal,120.0)
+                                            .padding(.horizontal,130.0)
                                     }
                                 
                                 }

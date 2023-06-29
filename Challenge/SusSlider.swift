@@ -27,7 +27,7 @@ struct SusSlider: View {
                 selection = selection < 5 ? selection + 1 : 0
             }
         })
-        .frame(width:400, height:220)
+        .frame(width:450, height:270)
     }
     
 }

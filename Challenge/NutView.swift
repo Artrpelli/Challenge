@@ -16,16 +16,16 @@ struct NutView: View {
             ZStack{
                 Image("q")
                     .resizable()
-                    .frame(width:280,height:280)
-                    .position(x:198, y:270)
+                    .frame(width:330,height:330)
+                    .position(x:212, y:270)
                 
                 NutSlider()
-                    .position(x:198, y:650)
+                    .position(x:213, y:700)
                 
                 Text("SLIDE TO FIND OUT")
                     .fontWeight(.medium)
                     .foregroundColor(Color("color2"))
-                    .position(x:200, y:465)
+                    .position(x:213, y:485)
                     .tracking(3)
                     .font(.title3)
                 

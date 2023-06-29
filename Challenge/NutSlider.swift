@@ -21,7 +21,7 @@ struct NutSlider: View {
             }
         }
         .tabViewStyle(PageTabViewStyle())
-        .frame(width:280,height:280)
+        .frame(width:330,height:330)
     }
     
 }

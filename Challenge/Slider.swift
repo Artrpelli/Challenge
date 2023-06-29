@@ -28,7 +28,7 @@ struct Slider: View {
                 selection = selection < 6 ? selection + 1 : 0
             }
         })
-        .frame(width:350, height:350)
+        .frame(width:360, height:360)
     }
     
 }
