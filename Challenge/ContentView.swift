@@ -36,7 +36,7 @@ struct ContentView: View {
                         .font(.custom(("AkzidenzGroteskBQ-Reg"), size: 20))
                 }
                 .frame(width:200, height:50)
-                .position(x:200, y:715)
+                .position(x:220, y:815)
                 
                 
             }
