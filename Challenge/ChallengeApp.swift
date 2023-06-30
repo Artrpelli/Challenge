@@ -12,7 +12,7 @@ import UIKit
 struct ChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirstView()
         }
     }
 }

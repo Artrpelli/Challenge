@@ -17,15 +17,15 @@ struct NutView: View {
                 Image("q")
                     .resizable()
                     .frame(width:330,height:330)
-                    .position(x:212, y:270)
+                    .position(x:212, y:290)
                 
                 NutSlider()
-                    .position(x:213, y:700)
+                    .position(x:213, y:710)
                 
-                Text("SLIDE TO FIND OUT")
+                Text("SLIDE TO FIND OUT >")
                     .fontWeight(.medium)
                     .foregroundColor(Color("color2"))
-                    .position(x:213, y:485)
+                    .position(x:213, y:515)
                     .tracking(3)
                     .font(.title3)
                 

@@ -30,27 +30,28 @@ struct MainView: View {
                             Text("WELCOME TO")
                                 .font(.title2)
                                 .foregroundColor(Color.white)
-                                .position(x:220, y:150)
-                            
-                            Text("NUTRITIOUS")
+                                .position(x:220, y:130)
+
+                            Text("THE NUTRITIOUS COLLECTION")
                                 .font(.largeTitle)
                                 .fontWeight(.heavy)
                                 .foregroundColor(Color.white)
-                                .position(x:220, y:170)
-                            
+                                .multilineTextAlignment(.center)
+                                .position(x:205, y:180)
+                                .padding(.horizontal,10)
+
                             VideoPlayer(player: player)
                                 .onAppear{
-                                      if player.currentItem == nil {
-                                            let item = AVPlayerItem(url: Bundle.main.url(forResource: "vid1", withExtension: "mp4")!)
-                                            player.replaceCurrentItem(with: item)
-                                        }
-                                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
-                                            player.play()
-                                        })
+                                    if player.currentItem == nil {
+                                        let item = AVPlayerItem(url: Bundle.main.url(forResource: "vid1", withExtension: "mp4")!)
+                                        player.replaceCurrentItem(with: item)
                                     }
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
+                                        player.play()
+                                    })
+                                }
                                 .frame(width: 340.0, height: 340.0,alignment: .center)
-                                .position(x:215, y:380)
-                                
+                                .position(x:215, y:360)
                             
                             VStack(alignment: .leading){
                                 Text("♥  Featuring the nutrient-")
@@ -65,16 +66,25 @@ struct MainView: View {
                                     .padding(.bottom, 15.0)
                                 Text("♥  Inspired by")
                                 Text("     Nutrigenomics")
+                                
                             }
                             .padding(.horizontal, 25.0)
                             .foregroundColor(Color.white)
-                            .position(x:220, y:400)
+                            .position(x:220, y:370)
                             .font(.title3)
                             .tracking(3)
                             .fontWeight(.light)
-                        }
-                        
-                        Group{
+                            
+                            NavigationLink(destination: ContentView(viewModel: FinalMemoryGame())){
+                                Text("CLICK HERE TO MEET THE PRODUCTS WITH A FUN GAME!")
+                                    .font(.title2)
+                                    .foregroundColor(Color.white)
+                                    .fontWeight(.light)
+                                    .tracking(5)
+                                    .padding(.horizontal, 40)
+                            }.frame(width:400, height:90).position(x:212, y:320)
+                            
+                           
                             ZStack{
                                 Rectangle()
                                     .fill(Color("color1"))
@@ -93,7 +103,6 @@ struct MainView: View {
                                     .position(x:220, y:435)
                                     .foregroundColor(Color("color2"))
                                     .tracking(3)
-                                
                                 HStack{
                                     VStack{
                                         NavigationLink(destination: NutView().navigationBarHidden(false)){
@@ -245,7 +254,7 @@ struct MainView: View {
                                     
                                     Text("NUTRICIOUS IS MADE WITH:")
                                         .multilineTextAlignment(.leading)
-                                        .position(x:15, y:1505)
+                                        .position(x:15, y:1500)
                                         .font(.body)
                                         .foregroundColor(Color.white)
                                         .fontWeight(.heavy)
@@ -254,7 +263,8 @@ struct MainView: View {
                                         .padding(.horizontal,100.0)
                                     
                                     ZStack{
-                                        NavigationLink(destination: SustainView()) {Text("Learn more about our commitment to sustainability >")
+                                        NavigationLink(destination: SustainView().navigationBarHidden(false)) {
+                                            Text("Learn more about our commitment to sustainability >")
                                                 .font(.body)
                                                 .fontWeight(.light)
                                                 .foregroundColor(Color.white)
@@ -344,6 +354,7 @@ struct MainView: View {
         }
     }
 }
+
     
 
 
