@@ -15,7 +15,7 @@
 		7A477AAE2A4A959300C4206B /* NutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A477AAD2A4A959300C4206B /* NutView.swift */; };
 		7A477AB02A4AA33700C4206B /* NutSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A477AAF2A4AA33700C4206B /* NutSlider.swift */; };
 		7A477AB22A4AA49200C4206B /* NiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A477AB12A4AA49200C4206B /* NiView.swift */; };
-		7A5EABD02A4F6C0700B18D0A /* intro.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EABCF2A4F6C0700B18D0A /* intro.mov */; };
+		7A5EABD22A4F6C8200B18D0A /* intro.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7A5EABD12A4F6C8200B18D0A /* intro.mov */; };
 		7A6B468E2A4987AA00DC29B8 /* vid1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7A6B468D2A4987AA00DC29B8 /* vid1.mp4 */; };
 		7A76A7652A4BC4BA00328B86 /* SustainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76A7642A4BC4BA00328B86 /* SustainView.swift */; };
 		7A9146FC2A4AD585005339B7 /* oil.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A9146F62A4AD585005339B7 /* oil.gif */; };
@@ -45,7 +45,7 @@
 		7A477AAD2A4A959300C4206B /* NutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutView.swift; sourceTree = "<group>"; };
 		7A477AAF2A4AA33700C4206B /* NutSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutSlider.swift; sourceTree = "<group>"; };
 		7A477AB12A4AA49200C4206B /* NiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiView.swift; sourceTree = "<group>"; };
-		7A5EABCF2A4F6C0700B18D0A /* intro.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = intro.mov; path = "../../app stuff/intro.mov"; sourceTree = "<group>"; };
+		7A5EABD12A4F6C8200B18D0A /* intro.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = intro.mov; path = "../../app stuff/intro.mov"; sourceTree = "<group>"; };
 		7A6B468D2A4987AA00DC29B8 /* vid1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vid1.mp4; sourceTree = "<group>"; };
 		7A76A7642A4BC4BA00328B86 /* SustainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainView.swift; sourceTree = "<group>"; };
 		7A9146F62A4AD585005339B7 /* oil.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = oil.gif; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 				7A9146F92A4AD585005339B7 /* poremin.gif */,
 				7A9146FB2A4AD585005339B7 /* redalg.gif */,
 				7A9146F72A4AD585005339B7 /* redness.gif */,
-				7A5EABCF2A4F6C0700B18D0A /* intro.mov */,
+				7A5EABD12A4F6C8200B18D0A /* intro.mov */,
 				7A6B468D2A4987AA00DC29B8 /* vid1.mp4 */,
 				7AD7AFFC2A495FE90035A2E8 /* AkzidenzGroteskBQ-Reg.ttf */,
 				7AD7AFFE2A49600C0035A2E8 /* AkzidenzGroteskBQ-Bold.ttf */,
@@ -205,11 +205,11 @@
 				7A477AA62A4A351800C4206B /* nutri.gif in Resources */,
 				7A9147002A4AD585005339B7 /* coco.gif in Resources */,
 				7AD7AFFD2A495FE90035A2E8 /* AkzidenzGroteskBQ-Reg.ttf in Resources */,
-				7A5EABD02A4F6C0700B18D0A /* intro.mov in Resources */,
 				7AD7AFFF2A49600C0035A2E8 /* AkzidenzGroteskBQ-Bold.ttf in Resources */,
 				7A9146FF2A4AD585005339B7 /* poremin.gif in Resources */,
 				7A477AAA2A4A67D700C4206B /* nine.gif in Resources */,
 				7AEE616E2A4921CF00623589 /* Assets.xcassets in Resources */,
+				7A5EABD22A4F6C8200B18D0A /* intro.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
